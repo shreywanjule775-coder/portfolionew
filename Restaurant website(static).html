@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shri Lakshmi Restaurant</title>
+    <style>
+    body{font-family: Arial;
+    margin:1;}
+
+    /* Header */
+    header{display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#333;
+    padding:15px;
+    color:faint-blue;}
+
+    nav ul{display:flex;
+    list-style:none;}
+
+    nav ul li{margin:0 15px;}
+
+    nav ul li a{color:white;
+    text-decoration:none;}
+
+    .hero{
+        height:400px;
+        background-color:white;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+
+    .btn{
+        background:red;
+        padding:10px 20px;
+        color:white;
+        text-decoration:none;
+        margin-top:10px;
+    }
+
+    .menu-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+        gap:20px;
+        padding:40px;
+    }
+
+    .card{
+        background:#f4f4f4;
+        padding:20px;
+        text-align:center;
+        border-radius:10px;
+    }
+
+    .content{
+        padding:40px;
+        text-align:center;
+    }
+
+    footer{
+        background:#222;
+        color:white;
+        text-align:center;
+        padding:20px;
+    }
+
+    .social span{
+        margin:10px;
+    } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Shri Lakshmi</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a HREF="about.html">About us</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Welcome to Shri Lakshmi</h2>
+        <p>Enjoy the best food in town</p>
+        <p>Pure veg ,Family Restaurant</p>
+        <a href="menu.html" class="btn">View Menu</a>
+    </section>
+
+    <footer>
+        <p>Follow us</p>
+        <div class="social">
+            <span>Facebook</span>
+            <span>Instagram</span>
+            <span>Youtube</span>
+            <span>Twitter</span>
+        </div>
+    </footer>
+
+    <h2 class="title">Our Menu</h2>
+    <section class="menu-grid">
+        <div class="card">
+            <h3>Maharishtrian</h3>
+            <img src="Images/Authentic Maharishtrian Thali.jpeg" alt= maharashtrianfood style= "height:150px; width:200px">
+            <P>Authentic Maharishtrian Thali</P>
+        </div>
+
+        <div class="card">
+        <h3>Punjabi</h3>
+        <img scr="Images/Punjabi Food.jpeg" alt= punjabifood style= "height:150px; width:200px">
+        <p>Taisty Punjabi Food</p>
+        </div>
+
+        <div class="card">
+            <h3>Continental Dishes</h3>
+            <img scr="Images/Continental Food.jpeg"alt= continentalfood style= "height:140px; width:200px">
+            <p>pure Continental Taist</p>
+        </div>
+
+        <div class="card">
+            <h3>Italian Dishes</h3>
+            <img scr="Images/Italian Food.jpeg"alt= italianfood style= "height:150px; width:200px">
+            <p>Original Italian taist</p>
+        </div>
+
+        <div class="card">
+            <h3>Fast food</h3>
+            <img scr="Images/Fast Food.jpeg"alt= fastfood style= "height:170px; width:200px">
+            <p>Taisty pizza and sandwitche's</p>
+        </div>
+
+        <div class="card">
+            <h3> Drinks & Beverages</h3>
+            <img scr="Images/Drinks.jpeg" alt= drinks style= "height:160px; width:200px">
+            <p>Refreshing drinks</p>
+        </div>
+    </section>
+    <section class="content">
+        <h2>About Us</h2>
+        <p>'Shri Lakshmi' is my childhood dream which I think will come true in coming few years.</p>
+        <P>'Shri Lakshmi' is a plan which I made ,this restarunt will serv with pure imotions and love</P>
+    </section>
+
+    <section class="content">
+        <h2>Contact Us</h2>
+        <p>E-mail:shrilakshmi775@gmail.com</p>
+        <p>phone:+91 8766037290</p>
+        <p>location:Government Colony,Vishrambag,Sangli.</p>
+    </section>
+    
+    <footer>
+        <p>@Shri Lakshmi</p>
+    </footer>
+</body>
+</html>

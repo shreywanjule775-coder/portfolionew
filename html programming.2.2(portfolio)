@@ -1,0 +1,72 @@
+<!DOCKTYPE html>
+<html >
+<head>
+ <meta charset="UFT-8">
+ <meta name="viewport" content="width=device-width,initial-scale=2.0">
+ <title>My Portfolio</title>
+  <style>
+   body{font-family:Arial, Helvetica, sans-serif;margin:0;padding:0;}
+   nav{background: colour #f4f4f4;padding:10px;}
+   nav a { text-decoration:none; margin-right:15px;}
+   .container{padding:20px;}
+   .skills-bar{background:colour#28a2df;height:20px;width:100px;}
+   .skills-progress{background:colour#ddf166;height:200px;text-align:justify;padding-right:20px ;}
+   @media(max-width:700px) {nav a{display:block;margin-bottom:5px;} }
+  </style>
+</head>
+<body>
+ <nav>
+   <a href="#home">Home</a>
+   <a href="#about">About Me</a>
+   <a href="#skills">Skills</a>
+   <a href="#projects">Projects</a>
+   <a href="#certificates">Certificates</a>
+   <a href="#contact">Contact</a>
+ </nav>
+ <div class="container">
+  <section id="home">
+    <h1>Home</h1>
+    <p>Welcome to my portfolio website!</p>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a student creating a personal portfolio website to showcase my profile and skills.</p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>HTML</p>
+    <div class="skills-bar"><div class="skills-progress" style="width:90%;">90%</div></div>
+    <p>CSS</p>
+    <div class="skills-bar"><div class="skills-progress" style="width:80%;">80%</div></div>
+    <p>JAVASCRIPT</p>
+    <div class="skills-bar"><div class="skills-progress"  style"width:60%;">60%</div></div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>project 1: description</li>
+      <li>project 2: description</li>
+    </ul>
+  </section>
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+       <li>certificate 1: name</li>
+       <li>certificate 2: name</li>
+    </ul>
+  </section>
+  <section id="contact">
+     <h2>Contact</h2>
+     <form action="#" method="post">
+       <label for="name">Name</label><br>
+       <input type="text"id="name"name="name"><br>
+       <label for="email">E-mail:</label><br>
+       <input type="email"id="email"name="email"><br>
+       <label for="message">Message:</label><br>
+       <textarea id="message" name="message" row="4"></textarea><br>
+       <input type="submit"value="send">
+     </form>
+  </section>
+ </div>
+</body>
+</html>
